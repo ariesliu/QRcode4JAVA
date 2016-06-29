@@ -24,8 +24,6 @@ public class QRcodeTest {
 			throw new RuntimeErrorException(null, "url or image save path are mandatory!");
 		}
 		
-		//String url = "http://10.18.61.81:8080/jenkins/job/sdk4android/lastSuccessfulBuild/artifact/TesterDemo/build/outputs/apk/TesterDemo-debug.apk";
-
 		if(url_parm==""){
 			url_parm="http://www.so.com";
 		}
